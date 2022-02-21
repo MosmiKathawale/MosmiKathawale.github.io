@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(0, 255, 110);
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background:url("./layered-waves-haikei\ \(1\).svg");
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:10px;
+    height: 100rem;
+    width: full;
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40;
+}
+.maintext{
+    font-size: 100px;
+    font-weight: 100;
+    
+}
+
+
+.pre-main{
+    width: full;
+    height: 400px;
+    color: darkgreen;
+    background-color: #00ff00;
+}
+
+
+@keyframes Main-img {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.main-image{
+    border-radius: 20px;
+    animation-name: Main-img;
+    animation-duration: 2s;
+    transition: all ease;
+    transition-duration: 2000ms;
+    box-shadow: 10px;
+
+}
+
+.main-image:hover{
+    border-radius: 50%;
+    height: auto;
+}
+
+
+
+.clutch{
+    font-size: 20px;
+}
+
+.spacer{
+    aspect-ratio: 2/1;
+    width: 100%;
+}
